@@ -118,6 +118,7 @@
             this.Controls.Add(this.btnEinzelspieler);
             this.Name = "FormHauptmenue";
             this.Text = "Hauptmenü";
+            this.Load += new System.EventHandler(this.FormHauptmenue_Load);
             this.ResumeLayout(false);
 
         }
