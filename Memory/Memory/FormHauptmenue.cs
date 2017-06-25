@@ -20,6 +20,10 @@ namespace Memory
 {
     public partial class FormHauptmenue : Form
     {
+        public static readonly String currVer = "v0.0.2";
+        
+
+
         static SoundPlayer snd0 = new SoundPlayer(Properties.Resources.soundtrack);
         [DllImport("winmm.dll")]
         public static extern int waveOutGetVolume(IntPtr hwo, out uint dwVolume);
@@ -41,7 +45,8 @@ namespace Memory
 
         private void btnCredits_Click(object sender, EventArgs e)
         {
-            FormHauptmenue.play(FormOptionen.SliderValue);
+            FormCredits fCredits = new FormCredits();
+            fCredits.Show();
         }
 
         private void btnMehrspieler_Click(object sender, EventArgs e)
