@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormOptionen));
             this.tbVolume = new System.Windows.Forms.TrackBar();
             this.lblVolumeText = new System.Windows.Forms.Label();
             this.lblVolumeValue = new System.Windows.Forms.Label();
@@ -68,6 +69,7 @@
             this.Controls.Add(this.lblVolumeValue);
             this.Controls.Add(this.lblVolumeText);
             this.Controls.Add(this.tbVolume);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormOptionen";
             this.Text = "Optionen";
             this.Load += new System.EventHandler(this.FormOptionen_Load);
