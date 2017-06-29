@@ -15,11 +15,55 @@ namespace Memory
     public partial class FormSpielfeld : Form
     {
         private List<Image> bilder = new List<Image>();
+        public static List<PictureBox> pb = new List<PictureBox>();
+        private Image tmpImg;
+        private static int tmpID = 0;
+        private static int punkte = 0;
+
+        public static int Punkte
+        {
+            get
+            {
+                return punkte;
+            }
+
+            set
+            {
+                punkte = value;
+            }
+        }
 
         public FormSpielfeld()
         {
             InitializeComponent();
             bilder = Logik.mischen();
+
+            var pictureBoxes = Controls.OfType<PictureBox>();
+            pb.Add(pb1);
+            pb.Add(pb2);
+            pb.Add(pb3);
+            pb.Add(pb4);
+            pb.Add(pb5);
+            pb.Add(pb6);
+            pb.Add(pb7);
+            pb.Add(pb8);
+            pb.Add(pb9);
+            pb.Add(pb10);
+            pb.Add(pb11);
+            pb.Add(pb12);
+            pb.Add(pb13);
+            pb.Add(pb14);
+            pb.Add(pb15);
+            pb.Add(pb16);
+            pb.Add(pb17);
+            pb.Add(pb18);
+            pb.Add(pb19);
+            pb.Add(pb20);
+            pb.Add(pb21);
+            pb.Add(pb22);
+            pb.Add(pb23);
+            pb.Add(pb24);
+
         }
 
         private void FormSpielfeld_Load(object sender, EventArgs e)
@@ -40,20 +84,30 @@ namespace Memory
             {
                 this.Close();
             }
-            else if (dialogResult == DialogResult.No)
-            {
-            }
         }
 
         private void klick(PictureBox p, int id)
         {
+            Logik.Zug++;
             p.Image = bilder[id];
+            if (Logik.Zug == 1)
+            {
+                tmpImg = p.Image;
+                tmpID = id;
+            }
+            else if (Logik.Zug == 2)
+            {
+                if (Logik.checkCards(p.Image, tmpImg, id, tmpID))
+                {
+                    lblPunkteVaule.Text = Punkte.ToString();
+                }
+            }
+
         }
         private void pb1_Click(object sender, EventArgs e)
         {
             klick(pb1, 0);
         }
-
 
         private void pb2_Click(object sender, EventArgs e)
         {

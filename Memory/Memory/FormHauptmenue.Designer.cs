@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHauptmenue));
             this.btnEinzelspieler = new System.Windows.Forms.Button();
             this.btnOptionen = new System.Windows.Forms.Button();
             this.btnMehrspieler = new System.Windows.Forms.Button();
@@ -116,6 +117,7 @@
             this.Controls.Add(this.btnMehrspieler);
             this.Controls.Add(this.btnOptionen);
             this.Controls.Add(this.btnEinzelspieler);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormHauptmenue";
             this.Text = "Hauptmenü";
             this.Load += new System.EventHandler(this.FormHauptmenue_Load);

@@ -90,14 +90,11 @@
             // 
             // pb1
             // 
-            this.pb1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb1.Location = new System.Drawing.Point(4, 5);
+            this.pb1.Location = new System.Drawing.Point(3, 3);
             this.pb1.Name = "pb1";
             this.pb1.Padding = new System.Windows.Forms.Padding(1);
-            this.pb1.Size = new System.Drawing.Size(85, 65);
+            this.pb1.Size = new System.Drawing.Size(127, 106);
             this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb1.TabIndex = 0;
             this.pb1.TabStop = false;
@@ -105,14 +102,11 @@
             // 
             // pb2
             // 
-            this.pb2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb2.Location = new System.Drawing.Point(95, 5);
+            this.pb2.Location = new System.Drawing.Point(136, 3);
             this.pb2.Name = "pb2";
             this.pb2.Padding = new System.Windows.Forms.Padding(1);
-            this.pb2.Size = new System.Drawing.Size(85, 65);
+            this.pb2.Size = new System.Drawing.Size(127, 106);
             this.pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb2.TabIndex = 1;
             this.pb2.TabStop = false;
@@ -120,14 +114,11 @@
             // 
             // pb3
             // 
-            this.pb3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb3.Location = new System.Drawing.Point(186, 5);
+            this.pb3.Location = new System.Drawing.Point(269, 3);
             this.pb3.Name = "pb3";
             this.pb3.Padding = new System.Windows.Forms.Padding(1);
-            this.pb3.Size = new System.Drawing.Size(85, 65);
+            this.pb3.Size = new System.Drawing.Size(127, 106);
             this.pb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb3.TabIndex = 2;
             this.pb3.TabStop = false;
@@ -135,14 +126,11 @@
             // 
             // pb4
             // 
-            this.pb4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb4.Location = new System.Drawing.Point(277, 5);
+            this.pb4.Location = new System.Drawing.Point(402, 3);
             this.pb4.Name = "pb4";
             this.pb4.Padding = new System.Windows.Forms.Padding(1);
-            this.pb4.Size = new System.Drawing.Size(85, 65);
+            this.pb4.Size = new System.Drawing.Size(127, 106);
             this.pb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb4.TabIndex = 3;
             this.pb4.TabStop = false;
@@ -150,14 +138,11 @@
             // 
             // pb5
             // 
-            this.pb5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb5.Location = new System.Drawing.Point(368, 4);
+            this.pb5.Location = new System.Drawing.Point(535, 3);
             this.pb5.Name = "pb5";
             this.pb5.Padding = new System.Windows.Forms.Padding(1);
-            this.pb5.Size = new System.Drawing.Size(85, 65);
+            this.pb5.Size = new System.Drawing.Size(127, 106);
             this.pb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb5.TabIndex = 4;
             this.pb5.TabStop = false;
@@ -165,14 +150,11 @@
             // 
             // pb6
             // 
-            this.pb6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb6.Location = new System.Drawing.Point(459, 4);
+            this.pb6.Location = new System.Drawing.Point(668, 3);
             this.pb6.Name = "pb6";
             this.pb6.Padding = new System.Windows.Forms.Padding(1);
-            this.pb6.Size = new System.Drawing.Size(85, 65);
+            this.pb6.Size = new System.Drawing.Size(127, 106);
             this.pb6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb6.TabIndex = 5;
             this.pb6.TabStop = false;
@@ -180,14 +162,11 @@
             // 
             // pb7
             // 
-            this.pb7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb7.Location = new System.Drawing.Point(4, 76);
+            this.pb7.Location = new System.Drawing.Point(3, 115);
             this.pb7.Name = "pb7";
             this.pb7.Padding = new System.Windows.Forms.Padding(1);
-            this.pb7.Size = new System.Drawing.Size(85, 65);
+            this.pb7.Size = new System.Drawing.Size(127, 106);
             this.pb7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb7.TabIndex = 6;
             this.pb7.TabStop = false;
@@ -195,14 +174,11 @@
             // 
             // pb8
             // 
-            this.pb8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb8.Location = new System.Drawing.Point(95, 76);
+            this.pb8.Location = new System.Drawing.Point(136, 115);
             this.pb8.Name = "pb8";
             this.pb8.Padding = new System.Windows.Forms.Padding(1);
-            this.pb8.Size = new System.Drawing.Size(85, 65);
+            this.pb8.Size = new System.Drawing.Size(127, 106);
             this.pb8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb8.TabIndex = 7;
             this.pb8.TabStop = false;
@@ -210,14 +186,11 @@
             // 
             // pb9
             // 
-            this.pb9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb9.Location = new System.Drawing.Point(186, 76);
+            this.pb9.Location = new System.Drawing.Point(269, 115);
             this.pb9.Name = "pb9";
             this.pb9.Padding = new System.Windows.Forms.Padding(1);
-            this.pb9.Size = new System.Drawing.Size(85, 65);
+            this.pb9.Size = new System.Drawing.Size(127, 106);
             this.pb9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb9.TabIndex = 8;
             this.pb9.TabStop = false;
@@ -225,14 +198,11 @@
             // 
             // pb10
             // 
-            this.pb10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb10.Location = new System.Drawing.Point(277, 76);
+            this.pb10.Location = new System.Drawing.Point(402, 115);
             this.pb10.Name = "pb10";
             this.pb10.Padding = new System.Windows.Forms.Padding(1);
-            this.pb10.Size = new System.Drawing.Size(85, 65);
+            this.pb10.Size = new System.Drawing.Size(127, 106);
             this.pb10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb10.TabIndex = 9;
             this.pb10.TabStop = false;
@@ -240,14 +210,11 @@
             // 
             // pb11
             // 
-            this.pb11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb11.Location = new System.Drawing.Point(368, 76);
+            this.pb11.Location = new System.Drawing.Point(535, 115);
             this.pb11.Name = "pb11";
             this.pb11.Padding = new System.Windows.Forms.Padding(1);
-            this.pb11.Size = new System.Drawing.Size(85, 65);
+            this.pb11.Size = new System.Drawing.Size(127, 106);
             this.pb11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb11.TabIndex = 10;
             this.pb11.TabStop = false;
@@ -255,14 +222,11 @@
             // 
             // pb12
             // 
-            this.pb12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb12.Location = new System.Drawing.Point(460, 76);
+            this.pb12.Location = new System.Drawing.Point(668, 115);
             this.pb12.Name = "pb12";
             this.pb12.Padding = new System.Windows.Forms.Padding(1);
-            this.pb12.Size = new System.Drawing.Size(85, 65);
+            this.pb12.Size = new System.Drawing.Size(127, 106);
             this.pb12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb12.TabIndex = 11;
             this.pb12.TabStop = false;
@@ -270,14 +234,11 @@
             // 
             // pb13
             // 
-            this.pb13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb13.Location = new System.Drawing.Point(4, 147);
+            this.pb13.Location = new System.Drawing.Point(3, 227);
             this.pb13.Name = "pb13";
             this.pb13.Padding = new System.Windows.Forms.Padding(1);
-            this.pb13.Size = new System.Drawing.Size(85, 65);
+            this.pb13.Size = new System.Drawing.Size(127, 106);
             this.pb13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb13.TabIndex = 12;
             this.pb13.TabStop = false;
@@ -285,14 +246,11 @@
             // 
             // pb14
             // 
-            this.pb14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb14.Location = new System.Drawing.Point(95, 147);
+            this.pb14.Location = new System.Drawing.Point(136, 227);
             this.pb14.Name = "pb14";
             this.pb14.Padding = new System.Windows.Forms.Padding(1);
-            this.pb14.Size = new System.Drawing.Size(85, 65);
+            this.pb14.Size = new System.Drawing.Size(127, 106);
             this.pb14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb14.TabIndex = 13;
             this.pb14.TabStop = false;
@@ -300,14 +258,11 @@
             // 
             // pb15
             // 
-            this.pb15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb15.Location = new System.Drawing.Point(186, 147);
+            this.pb15.Location = new System.Drawing.Point(269, 227);
             this.pb15.Name = "pb15";
             this.pb15.Padding = new System.Windows.Forms.Padding(1);
-            this.pb15.Size = new System.Drawing.Size(85, 65);
+            this.pb15.Size = new System.Drawing.Size(127, 106);
             this.pb15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb15.TabIndex = 14;
             this.pb15.TabStop = false;
@@ -315,14 +270,11 @@
             // 
             // pb16
             // 
-            this.pb16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb16.Location = new System.Drawing.Point(277, 147);
+            this.pb16.Location = new System.Drawing.Point(402, 227);
             this.pb16.Name = "pb16";
             this.pb16.Padding = new System.Windows.Forms.Padding(1);
-            this.pb16.Size = new System.Drawing.Size(85, 65);
+            this.pb16.Size = new System.Drawing.Size(127, 106);
             this.pb16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb16.TabIndex = 15;
             this.pb16.TabStop = false;
@@ -330,14 +282,11 @@
             // 
             // pb17
             // 
-            this.pb17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb17.Location = new System.Drawing.Point(368, 147);
+            this.pb17.Location = new System.Drawing.Point(535, 227);
             this.pb17.Name = "pb17";
             this.pb17.Padding = new System.Windows.Forms.Padding(1);
-            this.pb17.Size = new System.Drawing.Size(85, 65);
+            this.pb17.Size = new System.Drawing.Size(127, 106);
             this.pb17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb17.TabIndex = 16;
             this.pb17.TabStop = false;
@@ -345,14 +294,11 @@
             // 
             // pb18
             // 
-            this.pb18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb18.Location = new System.Drawing.Point(459, 147);
+            this.pb18.Location = new System.Drawing.Point(668, 227);
             this.pb18.Name = "pb18";
             this.pb18.Padding = new System.Windows.Forms.Padding(1);
-            this.pb18.Size = new System.Drawing.Size(85, 65);
+            this.pb18.Size = new System.Drawing.Size(127, 106);
             this.pb18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb18.TabIndex = 17;
             this.pb18.TabStop = false;
@@ -360,14 +306,11 @@
             // 
             // pb19
             // 
-            this.pb19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb19.Location = new System.Drawing.Point(4, 218);
+            this.pb19.Location = new System.Drawing.Point(3, 337);
             this.pb19.Name = "pb19";
             this.pb19.Padding = new System.Windows.Forms.Padding(1);
-            this.pb19.Size = new System.Drawing.Size(85, 65);
+            this.pb19.Size = new System.Drawing.Size(127, 106);
             this.pb19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb19.TabIndex = 18;
             this.pb19.TabStop = false;
@@ -375,14 +318,11 @@
             // 
             // pb20
             // 
-            this.pb20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb20.Location = new System.Drawing.Point(95, 218);
+            this.pb20.Location = new System.Drawing.Point(136, 337);
             this.pb20.Name = "pb20";
             this.pb20.Padding = new System.Windows.Forms.Padding(1);
-            this.pb20.Size = new System.Drawing.Size(85, 65);
+            this.pb20.Size = new System.Drawing.Size(127, 106);
             this.pb20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb20.TabIndex = 19;
             this.pb20.TabStop = false;
@@ -390,14 +330,11 @@
             // 
             // pb21
             // 
-            this.pb21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb21.Location = new System.Drawing.Point(186, 218);
+            this.pb21.Location = new System.Drawing.Point(269, 337);
             this.pb21.Name = "pb21";
             this.pb21.Padding = new System.Windows.Forms.Padding(1);
-            this.pb21.Size = new System.Drawing.Size(85, 65);
+            this.pb21.Size = new System.Drawing.Size(127, 106);
             this.pb21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb21.TabIndex = 20;
             this.pb21.TabStop = false;
@@ -405,14 +342,11 @@
             // 
             // pb22
             // 
-            this.pb22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb22.Location = new System.Drawing.Point(277, 218);
+            this.pb22.Location = new System.Drawing.Point(402, 337);
             this.pb22.Name = "pb22";
             this.pb22.Padding = new System.Windows.Forms.Padding(1);
-            this.pb22.Size = new System.Drawing.Size(85, 65);
+            this.pb22.Size = new System.Drawing.Size(127, 106);
             this.pb22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb22.TabIndex = 21;
             this.pb22.TabStop = false;
@@ -420,14 +354,11 @@
             // 
             // pb23
             // 
-            this.pb23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb23.Location = new System.Drawing.Point(368, 218);
+            this.pb23.Location = new System.Drawing.Point(535, 337);
             this.pb23.Name = "pb23";
             this.pb23.Padding = new System.Windows.Forms.Padding(1);
-            this.pb23.Size = new System.Drawing.Size(85, 65);
+            this.pb23.Size = new System.Drawing.Size(127, 106);
             this.pb23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb23.TabIndex = 22;
             this.pb23.TabStop = false;
@@ -435,14 +366,11 @@
             // 
             // pb24
             // 
-            this.pb24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pb24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb24.Location = new System.Drawing.Point(459, 218);
+            this.pb24.Location = new System.Drawing.Point(668, 339);
             this.pb24.Name = "pb24";
             this.pb24.Padding = new System.Windows.Forms.Padding(1);
-            this.pb24.Size = new System.Drawing.Size(85, 65);
+            this.pb24.Size = new System.Drawing.Size(127, 106);
             this.pb24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb24.TabIndex = 23;
             this.pb24.TabStop = false;
@@ -456,9 +384,9 @@
             this.grpBox.Controls.Add(this.lblPunkteText);
             this.grpBox.Controls.Add(this.btnZurueck);
             this.grpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpBox.Location = new System.Drawing.Point(12, 307);
+            this.grpBox.Location = new System.Drawing.Point(12, 467);
             this.grpBox.Name = "grpBox";
-            this.grpBox.Size = new System.Drawing.Size(550, 136);
+            this.grpBox.Size = new System.Drawing.Size(801, 136);
             this.grpBox.TabIndex = 24;
             this.grpBox.TabStop = false;
             this.grpBox.Text = "Einstellungen";
@@ -505,7 +433,7 @@
             // btnZurueck
             // 
             this.btnZurueck.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnZurueck.Location = new System.Drawing.Point(459, 107);
+            this.btnZurueck.Location = new System.Drawing.Point(6, 107);
             this.btnZurueck.Name = "btnZurueck";
             this.btnZurueck.Size = new System.Drawing.Size(75, 23);
             this.btnZurueck.TabIndex = 0;
@@ -515,8 +443,6 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.Controls.Add(this.pb1);
             this.panel1.Controls.Add(this.pb2);
@@ -544,14 +470,14 @@
             this.panel1.Controls.Add(this.pb13);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(550, 292);
+            this.panel1.Size = new System.Drawing.Size(801, 449);
             this.panel1.TabIndex = 25;
             // 
             // FormSpielfeld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 453);
+            this.ClientSize = new System.Drawing.Size(821, 613);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.grpBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
