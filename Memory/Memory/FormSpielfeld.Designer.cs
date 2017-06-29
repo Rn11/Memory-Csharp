@@ -386,7 +386,7 @@
             this.grpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpBox.Location = new System.Drawing.Point(12, 467);
             this.grpBox.Name = "grpBox";
-            this.grpBox.Size = new System.Drawing.Size(801, 136);
+            this.grpBox.Size = new System.Drawing.Size(801, 80);
             this.grpBox.TabIndex = 24;
             this.grpBox.TabStop = false;
             this.grpBox.Text = "Einstellungen";
@@ -433,9 +433,9 @@
             // btnZurueck
             // 
             this.btnZurueck.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnZurueck.Location = new System.Drawing.Point(6, 107);
+            this.btnZurueck.Location = new System.Drawing.Point(555, 51);
             this.btnZurueck.Name = "btnZurueck";
-            this.btnZurueck.Size = new System.Drawing.Size(75, 23);
+            this.btnZurueck.Size = new System.Drawing.Size(240, 23);
             this.btnZurueck.TabIndex = 0;
             this.btnZurueck.Text = "Zurück";
             this.btnZurueck.UseVisualStyleBackColor = true;
@@ -477,7 +477,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(821, 613);
+            this.ClientSize = new System.Drawing.Size(821, 558);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.grpBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
