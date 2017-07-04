@@ -13,17 +13,17 @@ namespace Memory
 {
     public partial class FormCredits : Form
     {
- 
+
         public FormCredits()
         {
             InitializeComponent();
-            lblVerValue.Text = FormHauptmenue.currVer;
+            lblVerValue.Text = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
             Memory.Update.runUpdate();
         }
 
-        private void FormCredits_Load(object sender, EventArgs e)
+        private void lblVerValue_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            System.Diagnostics.Process.Start("https://github.com/Rn11/Memory-Csharp/releases/latest");
         }
     }
 }
