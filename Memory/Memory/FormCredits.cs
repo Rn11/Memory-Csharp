@@ -13,17 +13,12 @@ namespace Memory
 {
     public partial class FormCredits : Form
     {
- 
+
         public FormCredits()
         {
             InitializeComponent();
-            lblVerValue.Text = FormHauptmenue.currVer;
+            lblVerValue.Text = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
             Memory.Update.runUpdate();
-        }
-
-        private void FormCredits_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

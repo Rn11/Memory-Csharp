@@ -13,21 +13,26 @@ namespace Memory
         public static void runUpdate()
         {
             string tmpVer = "";
-            if (RemoteFileExists(tmpVer))
+
+            try
             {
-                //get version tag of latest version
-                string newUrl = GetFinalRedirect("https://github.com/Rn11/Memory-Csharp/releases/latest");
-                string latestVer = newUrl.Substring(51, 6);
-                MessageBox.Show(latestVer);
-                if (latestVer != FormHauptmenue.currVer)
+                if (RemoteFileExists(tmpVer))
                 {
-                    if (MessageBox.Show("Ein neuere Version ist verfügbar! Jetzt neue Version runterladen?", "Update verfügbar!", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk) == DialogResult.Yes)
+                    //get version tag of latest version
+                    string newUrl = GetFinalRedirect("https://github.com/Rn11/Memory-Csharp/releases/latest");
+                    string latestVer = newUrl.Substring(51, 6);
+                    if (latestVer != System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString())
                     {
-                        string downloadUrl = "https://github.com/Rn11/Memory-Csharp/releases/latest";
-                        System.Diagnostics.Process.Start(downloadUrl);
+                        if (MessageBox.Show("Ein neuere Version ist verfügbar! Jetzt neue Version runterladen?", "Update verfügbar", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk) == DialogResult.Yes)
+                        {
+                            System.Diagnostics.Process.Start("https://github.com/Rn11/Memory-Csharp/releases/latest");
+                        }
                     }
                 }
-
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Kritischer Fehler im Update-Prozess: " + ex.Message);
             }
         }
         private static bool RemoteFileExists(string version)
@@ -43,8 +48,9 @@ namespace Memory
                 }
             }
 
-            catch
+            catch (Exception ex)
             {
+                MessageBox.Show("Kritischer Fehler im Update-Prozess: " + ex.Message);
                 return false;
             }
         }
@@ -93,8 +99,9 @@ namespace Memory
                 {
                     return newUrl;
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    MessageBox.Show("Kritischer Fehler im Update-Prozess: " + ex.Message);
                     return null;
                 }
                 finally

@@ -20,10 +20,6 @@ namespace Memory
 {
     public partial class FormHauptmenue : Form
     {
-        public static readonly String currVer = "v0.0.2";
-        
-
-
         static SoundPlayer snd0 = new SoundPlayer(Properties.Resources.soundtrack);
         [DllImport("winmm.dll")]
         public static extern int waveOutGetVolume(IntPtr hwo, out uint dwVolume);
