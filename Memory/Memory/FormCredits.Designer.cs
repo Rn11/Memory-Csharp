@@ -28,40 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCredits));
             this.lblVerValue = new System.Windows.Forms.Label();
-            this.lblVerText = new System.Windows.Forms.Label();
+            this.lblVerTxt = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblVerValue
             // 
             this.lblVerValue.AutoSize = true;
             this.lblVerValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVerValue.Location = new System.Drawing.Point(80, 20);
+            this.lblVerValue.Location = new System.Drawing.Point(12, 25);
             this.lblVerValue.Name = "lblVerValue";
-            this.lblVerValue.Size = new System.Drawing.Size(81, 16);
+            this.lblVerValue.Size = new System.Drawing.Size(28, 16);
             this.lblVerValue.TabIndex = 0;
-            this.lblVerValue.Text = "lorem ipsum";
+            this.lblVerValue.Text = "null";
             // 
-            // lblVerText
+            // lblVerTxt
             // 
-            this.lblVerText.AutoSize = true;
-            this.lblVerText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVerText.Location = new System.Drawing.Point(17, 20);
-            this.lblVerText.Name = "lblVerText";
-            this.lblVerText.Size = new System.Drawing.Size(11, 16);
-            this.lblVerText.TabIndex = 1;
-            this.lblVerText.Text = " ";
+            this.lblVerTxt.AutoSize = true;
+            this.lblVerTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVerTxt.Location = new System.Drawing.Point(12, 9);
+            this.lblVerTxt.Name = "lblVerTxt";
+            this.lblVerTxt.Size = new System.Drawing.Size(57, 16);
+            this.lblVerTxt.TabIndex = 2;
+            this.lblVerTxt.Text = "Version:";
             // 
             // FormCredits
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 99);
-            this.Controls.Add(this.lblVerText);
+            this.ClientSize = new System.Drawing.Size(257, 62);
+            this.Controls.Add(this.lblVerTxt);
             this.Controls.Add(this.lblVerValue);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormCredits";
             this.Text = "Version";
-            this.Load += new System.EventHandler(this.FormCredits_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,6 +71,6 @@
         #endregion
 
         private System.Windows.Forms.Label lblVerValue;
-        private System.Windows.Forms.Label lblVerText;
+        private System.Windows.Forms.Label lblVerTxt;
     }
 }
