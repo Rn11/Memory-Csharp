@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             this.lblVerTxt = new System.Windows.Forms.Label();
             this.lblVerValue = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
@@ -46,6 +47,7 @@
             // 
             this.lblVerValue.ActiveLinkColor = System.Drawing.Color.LightGreen;
             this.lblVerValue.AutoSize = true;
+
             this.lblVerValue.LinkColor = System.Drawing.Color.SteelBlue;
             this.lblVerValue.Location = new System.Drawing.Point(12, 25);
             this.lblVerValue.Name = "lblVerValue";
@@ -55,6 +57,7 @@
             this.lblVerValue.Text = "null";
             this.lblVerValue.VisitedLinkColor = System.Drawing.Color.Tomato;
             this.lblVerValue.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblVerValue_LinkClicked);
+
             // 
             // FormCredits
             // 
@@ -63,6 +66,9 @@
             this.ClientSize = new System.Drawing.Size(257, 62);
             this.Controls.Add(this.lblVerValue);
             this.Controls.Add(this.lblVerTxt);
+
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+
             this.Name = "FormCredits";
             this.Text = "Version";
             this.ResumeLayout(false);
@@ -71,6 +77,7 @@
         }
 
         #endregion
+
         private System.Windows.Forms.Label lblVerTxt;
         private System.Windows.Forms.LinkLabel lblVerValue;
     }
