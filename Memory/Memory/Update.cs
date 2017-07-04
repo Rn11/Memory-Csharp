@@ -21,7 +21,7 @@ namespace Memory
                     //get version tag of latest version
                     string newUrl = GetFinalRedirect("https://github.com/Rn11/Memory-Csharp/releases/latest");
 
-                    string latestVer = newUrl.Substring(51, newUrl.Length - 51);
+                    string latestVer = newUrl.Substring(52, newUrl.Length - 52);
 
                     if (latestVer != System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString())
                     {
