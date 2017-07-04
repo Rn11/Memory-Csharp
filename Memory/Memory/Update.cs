@@ -20,7 +20,9 @@ namespace Memory
                 {
                     //get version tag of latest version
                     string newUrl = GetFinalRedirect("https://github.com/Rn11/Memory-Csharp/releases/latest");
-                    string latestVer = newUrl.Substring(51, 6);
+
+                    string latestVer = newUrl.Substring(51, newUrl.Length - 51);
+
                     if (latestVer != System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString())
                     {
                         if (MessageBox.Show("Ein neuere Version ist verfügbar! Jetzt neue Version runterladen?", "Update verfügbar", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk) == DialogResult.Yes)
